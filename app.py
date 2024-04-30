@@ -1,5 +1,5 @@
 import streamlit as st
-from llama_index import VectorStoreIndex
+from llama_index.core import VectorStoreIndex
 from llama_index import ServiceContext
 from llama_index.embeddings import HuggingFaceEmbedding
 from llama_index.llms import HuggingFaceInferenceAPI
