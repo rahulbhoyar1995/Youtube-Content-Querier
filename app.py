@@ -2,9 +2,9 @@ import streamlit as st
 #from llama_index.core import VectorStoreIndex, ServiceContext
 #from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 #from llama_index.llms import HuggingFaceInferenceAPI
-from llama_hub.youtube_transcript import YoutubeTranscriptReader
+#from llama_hub.youtube_transcript import YoutubeTranscriptReader
 
-
+from llama_index.readers.youtube_transcript import YoutubeTranscriptReader
 
 def main():
     # Streamlit title and description
